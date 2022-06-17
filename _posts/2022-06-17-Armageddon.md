@@ -2,7 +2,7 @@
 title: Armageddon writeup
 date: 2022-06-17 13:00:00 +0200
 categories: [Writeup, HackTheBox]
-tags: [HackTheBox, Writeup, Easy-box]
+tag: ["Easy-box"]
 img_path: /assets/img/boxes/armageddon/
 image:
   src: Armageddon.png
