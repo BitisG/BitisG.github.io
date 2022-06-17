@@ -223,4 +223,4 @@ Administrator. It usually boils down to these three things:
 ```
 rooted! 
 
-Small side note: I guess since we could run snap as sudo, the whole overwriting of the uid didn't really matter as long as we had an evil snap packet.
+Small side note: I guess since we could run snap as sudo, the whole overwriting of the uid didn't really matter as long as we had an evil snap package.
