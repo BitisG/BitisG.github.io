@@ -133,6 +133,7 @@ development:x:1000:1000:Development:/home/development:/bin/bash
 lxd:x:998:100::/var/snap/lxd/common/lxd:/bin/false
 usbmux:x:112:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
 ```
+{: file="/etc/passwd"}
 ```php
 <?php
 // TODO -> Implement login system with the database.
@@ -210,6 +211,7 @@ def main():
 
 main()
 ```
+{: file="ticketValidator.py"}
 The interesting function in this script is the `evaluate(ticketFile)` function. If given a correctly formed `.md`{: .filepath} file, it will evaluate the ticket code, which it expects to be an arithmetic expression. If we instead insert python code into the ticket code, then this code will also be evaluated and therefore run. Because of this we can insert a python reverse shell in the file and then get root access. I used the script on the below file:
 ```md
 # Skytrain Inc
