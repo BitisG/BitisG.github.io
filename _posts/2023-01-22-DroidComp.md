@@ -2,7 +2,7 @@
 title: DroidComp writeup
 date: 2023-01-22 18:00:00 +0200
 categories: [Writeup, android, APK, reversing, frida]
-tags: [android, APK, reversing, frida]     # TAG names should always be lowercase
+tags: [android, apk, reversing, frida]     # TAG names should always be lowercase
 img_path: /assets/img/ctf/bios/droidcomp
 image: # Thumbnail 
   src: Frida.jpg
